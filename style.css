@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+html {
+    scroll-behavior: smooth; 
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 390;
+    line-height: 1.5;
+    color: #0a0101;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    border: 1px solid rgb(78, 75, 75);
+}
+    ul.nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+        a.nav-link {
+            padding: 0 20px;
+            line-height: 50px;
+            transition: .3s;
+            text-decoration: none;
+            color: #0c0c0c;
+            transition: color 0.5s;
+        }    
+              .nav-link:hover {
+                color: #f71212;
+                text-decoration: underline;
+              }   
+
+main{
+    border: 1px solid rgb(78, 75, 75);
+    padding: 30px 50px;
+}
+    .main-header {
+        display: flex;
+        justify-content: space-between;
+    }
+        .contacts ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        a.contacts-link{
+            transition: .3s;
+            text-decoration: none;
+            color: #0c0c0c;
+            transition: color 0.5s;
+        }
+        a.contacts-link:hover{
+            color: #f71212;
+            text-decoration: underline;
+        }
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #36040b;
+  }
+  a.projects-link{
+    transition: .3s;
+    text-decoration: none;
+    color: #0c0c0c;
+    transition: color 0.5s;
+}
+a.projects-link:hover{
+    color: #f71212;
+    text-decoration: underline;
+}
+  pre{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 390;
+    line-height: 1.5;
+    color: #0a0101;
+  }
+
+footer{
+    border: 1px solid rgb(78, 75, 75);
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 20px;
+}
+    .rss{
+        width: 140px;
+        }
+
