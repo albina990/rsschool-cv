@@ -69,14 +69,6 @@ main{
             color: #f71212;
             text-decoration: underline;
         }
-  .section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #4d2323;
-  }
   .section-title {
     font-size: 20px;
     font-weight: 400;
