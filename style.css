@@ -105,7 +105,8 @@ a.projects-link:hover{
 footer{
     border: 1px solid rgb(78, 75, 75);
     display: flex;
-    justify-content:flex-end;
+    justify-content:space-between;
+    padding: 0px 20px;
 }
     .rss{
         width: 140px;
