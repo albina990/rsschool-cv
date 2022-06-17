@@ -23,7 +23,7 @@ body {
 }
 
 header{
-    border: 1px solid red;
+    border: 1px solid rgb(78, 75, 75);
 }
     ul.nav-list {
         display: flex;
@@ -47,7 +47,7 @@ header{
               }   
 
 main{
-    border: 1px solid red;
+    border: 1px solid rgb(78, 75, 75);
     padding: 30px 50px;
 }
     .main-header {
@@ -58,6 +58,16 @@ main{
             list-style: none;
             padding: 0;
             margin: 0;
+        }
+        a.contacts-link{
+            transition: .3s;
+            text-decoration: none;
+            color: #0c0c0c;
+            transition: color 0.5s;
+        }
+        a.contacts-link:hover{
+            color: #f71212;
+            text-decoration: underline;
         }
   .section-item a {
     color: #829985;
@@ -74,12 +84,30 @@ main{
     letter-spacing: 5px;
     color: #36040b;
   }
+  a.projects-link{
+    transition: .3s;
+    text-decoration: none;
+    color: #0c0c0c;
+    transition: color 0.5s;
+}
+a.projects-link:hover{
+    color: #f71212;
+    text-decoration: underline;
+}
+  pre{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 390;
+    line-height: 1.5;
+    color: #0a0101;
+  }
 
 footer{
-    border: 1px solid red;
+    border: 1px solid rgb(78, 75, 75);
+    display: flex;
+    justify-content:flex-end;
 }
     .rss{
         width: 140px;
-        align-items:flex-end;
         }
 
